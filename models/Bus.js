@@ -1,9 +1,8 @@
 const mongoose = require("mongoose");
 
 const busSchema = new mongoose.Schema({
-  routeId: { type: Number },
-  routeName: { type: String },
-  stationId: { type: Number },
+  busNumber: { type: String },
+  routeOrder: { type: Number },
   stationNumber: { type: String },
   stationName: { type: String },
   xCoordinate: { type: Number },
