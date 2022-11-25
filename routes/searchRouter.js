@@ -27,7 +27,6 @@ const capturedNumber = "105";
 
 router.post("/bus", async (req, res, next) => {
   const stations = req.body;
-  console.log(stations)
   const departureBusNumbers = await getBusNumbers(departure);
   const arrivalBusNumbers = await getBusNumbers(arrival);
   const boardingBuses = departureBusNumbers.filter((data) =>
