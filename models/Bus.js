@@ -5,8 +5,8 @@ const busSchema = new mongoose.Schema({
   routeOrder: { type: Number },
   stationNumber: { type: String },
   stationName: { type: String },
-  xCoordinate: { type: Number },
-  yCoordinate: { type: Number },
+  xCoordinate: { type: String },
+  yCoordinate: { type: String },
 });
 
 module.exports = mongoose.model("Bus", busSchema);
