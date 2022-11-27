@@ -7,7 +7,7 @@ require("dotenv").config();
 cors();
 
 const db = require("./loaders/db")();
-const latitudeRoute = require("./routes/latitudeRouter");
+const geolocationRoute = require("./routes/geolocationRouter");
 const searchRoute = require("./routes/searchRouter");
 
 const app = express();
@@ -16,7 +16,7 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/latitude", latitudeRoute);
+app.use("/geolocation", geolocationRoute);
 app.use("/search", searchRoute);
 
 app.use(function (req, res, next) {
