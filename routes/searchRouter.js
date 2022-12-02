@@ -2,10 +2,10 @@ const express = require("express");
 
 const router = express.Router();
 
-const { postBus, postStation } = require("../controllers/search");
+const { putBus, putStation } = require("../controllers/search");
 
-router.post("/bus", postBus);
+router.put("/bus", putBus);
 
-router.post("/station", postStation);
+router.put("/station", putStation);
 
 module.exports = router;
