@@ -1,7 +1,7 @@
 const { numericalRange } = require("../utils/geolocationPlugin");
 const Bus = require("../models/Bus");
 
-const postGeolocation = async (req, res) => {
+const postGeolocation = async (req, res, next) => {
   try {
     const wholeXCoordinate = req.body.geolocation.coords.longitude;
     const wholeYCoordinate = req.body.geolocation.coords.latitude;
