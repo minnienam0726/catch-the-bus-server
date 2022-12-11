@@ -2,8 +2,8 @@ const express = require("express");
 
 const router = express.Router();
 
-const { putGeolocation } = require("../controllers/geolocation");
+const { postGeolocation } = require("../controllers/geolocation");
 
-router.put("/", putGeolocation);
+router.post("/", postGeolocation);
 
 module.exports = router;
