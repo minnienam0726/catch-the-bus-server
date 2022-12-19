@@ -1,5 +1,12 @@
 # catch-the-bus-server
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/110805557/208371764-e14e9cf6-60a2-4faf-b01e-11d0e51e77b3.jpg" height="410px" width="200px">
+<img src="https://user-images.githubusercontent.com/110805557/208371807-3936cc57-24af-4119-8ed7-1dc8e77aa9c1.jpg" height="410px" width="200px">
+<img src="https://user-images.githubusercontent.com/110805557/208371816-29a882f8-f6e9-41fa-9137-e0e2b8d5b17c.jpg" height="410px" width="200px">
+<img src="https://user-images.githubusercontent.com/110805557/208371824-acaf23da-0673-4b3d-bed3-7a9389d345b4.jpg" height="410px" width="200px">
+</p>
+
 ## 소개
 
 - 서울 버스기사님, \*\*\* 가시나요? (Catch the bus) 프로젝트는 사용자가 눈앞의 버스가 목적지에 도달하는지 빠르게 검색하는 모바일 앱입니다.
