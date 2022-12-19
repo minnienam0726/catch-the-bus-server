@@ -2,7 +2,7 @@
 
 ## 소개
 
-- 서울 버스기사님, \*\*\* 가시나요? (Catch the bus) 프로젝트는 사용자가 눈앞의 버스가 목적지에 도달하는지 빠르게 검색하는 모바일 앱입니다.
+- 서울 버스기사님, \*\*\* 가시나요? (Catch the bus)는 사용자가 눈앞의 버스가 목적지에 도달하는지 빠르게 검색하는 모바일 앱입니다.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/110805557/208371764-e14e9cf6-60a2-4faf-b01e-11d0e51e77b3.jpg" height="410px" width="200px">
