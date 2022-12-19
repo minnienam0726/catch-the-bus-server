@@ -1,4 +1,4 @@
-# catch-the-bus-client
+# catch-the-bus-server
 
 ## 소개
 
